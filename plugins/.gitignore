@@ -1,9 +1,0 @@
-*
-!.gitignore
-
-!example
-example/**
-!example/compatible.js
-
-*.psd
-*.map
