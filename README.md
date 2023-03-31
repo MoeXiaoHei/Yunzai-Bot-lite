@@ -8,3 +8,19 @@
 Yunzai-Bot插件库：[☞Github](https://github.com/yhArcadia/Yunzai-Bot-plugins-index)/[☞Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
 
 严禁用于任何商业用途和非法行为
+
+# docker 部署
+50832端口时锅巴插件
+
+国内镜像
+```shell
+docker run -it -p 1022:22 -p 50832:50832  --name yunzai registry.cn-hangzhou.aliyuncs.com/oicq/yunzai-bot-lite:latest
+```
+国外镜像
+```shell
+docker run -it -p 1022:22 -p 50832:50832  --name yunzai ovonull/yunzai-bot-lite
+```
+根据提示操作，退出容器后执行
+```shell
+docker restart yunzai
+```
