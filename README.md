@@ -14,7 +14,7 @@ Yunzai-Bot插件库：[☞Github](https://github.com/yhArcadia/Yunzai-Bot-plugin
 
 国内镜像
 ```shell
-docker run -it -p 1022:22 -p 50832:50832  --name yunzai registry.cn-hangzhou.aliyuncs.com/oicq/yunzai-bot-lite:latest
+docker run -it -p 1022:22 -p 50832:50832 -p 3321:3321 --name yunzai registry.cn-hangzhou.aliyuncs.com/oicq/yunzai-bot-lite:latest
 ```
 国外镜像
 ```shell
@@ -23,4 +23,9 @@ docker run -it -p 1022:22 -p 50832:50832  --name yunzai ovonull/yunzai-bot-lite
 根据提示操作，退出容器后执行
 ```shell
 docker restart yunzai
+```
+不带锅巴的镜像
+
+```shell
+ovonull/yunzai-bot-lite:lite
 ```
