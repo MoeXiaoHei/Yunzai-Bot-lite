@@ -24,3 +24,8 @@ docker run -it -p 1022:22 -p 50832:50832  --name yunzai ovonull/yunzai-bot-lite
 ```shell
 docker restart yunzai
 ```
+不带锅巴的镜像
+
+```shell
+ovonull/yunzai-bot-lite:lite
+```
