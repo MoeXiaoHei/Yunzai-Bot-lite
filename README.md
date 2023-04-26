@@ -18,7 +18,7 @@ docker run -it -p 1022:22 -p 50832:50832 -p 3321:3321 --name yunzai registry.cn-
 ```
 国外镜像
 ```shell
-docker run -it -p 1022:22 -p 50832:50832  --name yunzai ovonull/yunzai-bot-lite
+docker run -it -p 1022:22 -p 50832:50832 -p 3321:3321 --name yunzai ovonull/yunzai-bot-lite
 ```
 根据提示操作，退出容器后执行
 ```shell
