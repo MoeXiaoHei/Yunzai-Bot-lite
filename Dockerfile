@@ -29,6 +29,7 @@ WORKDIR /app
 RUN git clone https://github.com/MoeXiaoHei/Yunzai-Bot-lite.git /app/Yunzai-Bot
 WORKDIR /app/Yunzai-Bot
 RUN pnpm install -P
+RUN pnpm add icqq@latest -w
 RUN pnpm install --filter=guoba-plugin
 EXPOSE 50831
 RUN git clone --depth=1 https://gitee.com/ikechan/chatgpt-plugin.git ./plugins/chatgpt-plugin/
